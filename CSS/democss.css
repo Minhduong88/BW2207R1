@@ -1,0 +1,32 @@
+h1 {
+/* mau sac */   
+    color:rgb(8, 7, 7)
+    /* them duong vien cho bang */
+border: 1px;
+/* tao vien manh cho bang */
+border-collapse: collapse;
+/* thiet lap chieu rong chieu cao cua bang */
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+/* can chinh theo chieu ngang */
+text-align: left;
+height: 50px;
+/* can chinh theo chieu doc */
+    vertical-align: bottom;
+    /* điều khiển khoảng cách giữa đường viền và nội dung bên trong một bảng */
+    padding: 15px;
+/* Mau sac trong dong */
+    tr:nth-child(even){background-color: #f2f2f2}
+
+
+}
